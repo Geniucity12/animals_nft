@@ -208,4 +208,4 @@ MIT License - See LICENSE file for details.
 
 ---
 
-**Built with ❤️ by the Animals NFT Team**
+**Built with ❤️ by geniucity**
