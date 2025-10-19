@@ -179,16 +179,9 @@ forge script script/DeployAnimals.s.sol --rpc-url sepolia --broadcast --verify
 
 ## 🌐 Website Deployment
 
-The mint site is ready for deployment to Netlify:
+The mint site is deployed to netflify site: https://animalsmintsite.netlify.app/
 
-```bash
-# Deploy to Netlify (drag & drop)
-# Use the netlify-deploy/ folder contents
 
-# Or use Netlify CLI
-cd netlify-deploy
-netlify deploy --prod
-```
 
 ## 📊 Mint Statistics
 
