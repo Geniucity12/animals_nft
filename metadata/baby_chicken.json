@@ -1,0 +1,19 @@
+{
+  "name": "Baby Chicken #3",
+  "description": "A cute baby chicken that can be upgraded to an adult after 12 hours. Part of the Animals NFT collection.",
+  "image": "https://coral-academic-chipmunk-90.mypinata.cloud/ipfs/bafybeiaeyej2ot637bwrqjzwqxmbnqrd7xi3fz6fdjh74lraad6xct2iui/baby_chicken.png",
+  "attributes": [
+    {
+      "trait_type": "Species",
+      "value": "Chicken"
+    },
+    {
+      "trait_type": "Stage",
+      "value": "Baby"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Common"
+    }
+  ]
+}

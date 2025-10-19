@@ -1,0 +1,19 @@
+{
+  "name": "Baby Cat #2",
+  "description": "A cute baby cat that can be upgraded to an adult after 12 hours. Part of the Animals NFT collection.",
+  "image": "https://coral-academic-chipmunk-90.mypinata.cloud/ipfs/bafybeiaeyej2ot637bwrqjzwqxmbnqrd7xi3fz6fdjh74lraad6xct2iui/baby_cat.png",
+  "attributes": [
+    {
+      "trait_type": "Species",
+      "value": "Cat"
+    },
+    {
+      "trait_type": "Stage",
+      "value": "Baby"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Common"
+    }
+  ]
+}

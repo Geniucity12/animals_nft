@@ -1,0 +1,19 @@
+{
+  "name": "Adult Zebra #10",
+  "description": "A majestic adult zebra, evolved from its baby form. Part of the Animals NFT collection.",
+  "image": "https://coral-academic-chipmunk-90.mypinata.cloud/ipfs/bafybeicbgntfgeuzjleo2esutzxiu34wr4wmq5juerc4uuetcb6yudo7py/adult_zebra.png",
+  "attributes": [
+    {
+      "trait_type": "Species",
+      "value": "Zebra"
+    },
+    {
+      "trait_type": "Stage",
+      "value": "Adult"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Rare"
+    }
+  ]
+}

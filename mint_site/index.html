@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animals NFT - Mint Your Baby Animal</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://unpkg.com/ethers@5.7.2/dist/ethers.umd.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🐾 Animals NFT Collection</h1>
+            <p>Mint your baby animal and upgrade it to an adult!</p>
+        </header>
+
+        <div class="mint-section">
+            <div class="contract-info">
+                <h2>Contract Info</h2>
+                <p><strong>Network:</strong> Sepolia Testnet</p>
+                <p><strong>Contract:</strong> <span id="contract-address">0x7cAca921010BC0dA27F0ca5a89FcCec0Ae4184A2</span></p>
+                <p><strong>Mint Window:</strong> <span id="mint-status">Checking...</span></p>
+                <p><strong>Available:</strong> <span id="available-count">Loading...</span> / 10</p>
+                <p><strong>Price:</strong> FREE</p>
+            </div>
+
+            <div class="wallet-section">
+                <button id="connect-wallet" class="btn btn-primary">Connect Wallet</button>
+                <div id="wallet-info" class="wallet-info hidden">
+                    <p><strong>Connected:</strong> <span id="wallet-address"></span></p>
+                    <p><strong>Network:</strong> <span id="network-name"></span></p>
+                    <p><strong>Whitelist Status:</strong> <span id="whitelist-status">Checking...</span></p>
+                </div>
+            </div>
+
+            <div class="mint-controls">
+                <div class="mint-quantity">
+                    <label for="mint-amount">Number of Animals to Mint:</label>
+                    <div class="quantity-selector">
+                        <button type="button" id="decrease-btn" class="quantity-btn">-</button>
+                        <input type="number" id="mint-amount" min="1" max="2" value="1" readonly>
+                        <button type="button" id="increase-btn" class="quantity-btn">+</button>
+                    </div>
+                    <p class="mint-limit">Maximum 2 per wallet</p>
+                </div>
+                
+                <button id="mint-btn" class="btn btn-mint" disabled>
+                    Connect Wallet to Mint
+                </button>
+                <div id="mint-status-message"></div>
+            </div>
+        </div>
+
+        <div class="your-nfts">
+            <h2>Your Animals</h2>
+            <div id="nft-grid" class="nft-grid">
+                <p>Connect your wallet to see your animals</p>
+            </div>
+        </div>
+
+        <div class="upgrade-section hidden" id="upgrade-section">
+            <h2>Upgrade Your Animals</h2>
+            <p>Click on any baby animal to upgrade it to an adult (12-hour cooldown between upgrades)</p>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,19 @@
+{
+  "name": "Adult Dog #4",
+  "description": "A majestic adult dog, evolved from its baby form. Part of the Animals NFT collection.",
+  "image": "https://coral-academic-chipmunk-90.mypinata.cloud/ipfs/bafybeicbgntfgeuzjleo2esutzxiu34wr4wmq5juerc4uuetcb6yudo7py/adult_dog.png",
+  "attributes": [
+    {
+      "trait_type": "Species",
+      "value": "Dog"
+    },
+    {
+      "trait_type": "Stage",
+      "value": "Adult"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Rare"
+    }
+  ]
+}

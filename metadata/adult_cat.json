@@ -1,0 +1,19 @@
+{
+  "name": "Adult Cat #2",
+  "description": "A majestic adult cat, evolved from its baby form. Part of the Animals NFT collection.",
+  "image": "https://coral-academic-chipmunk-90.mypinata.cloud/ipfs/bafybeicbgntfgeuzjleo2esutzxiu34wr4wmq5juerc4uuetcb6yudo7py/adult_cat.png",
+  "attributes": [
+    {
+      "trait_type": "Species",
+      "value": "Cat"
+    },
+    {
+      "trait_type": "Stage",
+      "value": "Adult"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Rare"
+    }
+  ]
+}

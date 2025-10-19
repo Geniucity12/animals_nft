@@ -1,0 +1,19 @@
+{
+  "name": "Baby Dog #4",
+  "description": "A cute baby dog that can be upgraded to an adult after 12 hours. Part of the Animals NFT collection.",
+  "image": "https://coral-academic-chipmunk-90.mypinata.cloud/ipfs/QmSKzC8j19xF9y7N8zX4VEJf89s7Nkk2R7N3vB5E8FmT4P/baby_dog.png",
+  "attributes": [
+    {
+      "trait_type": "Species",
+      "value": "Dog"
+    },
+    {
+      "trait_type": "Stage",
+      "value": "Baby"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Common"
+    }
+  ]
+}

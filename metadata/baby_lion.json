@@ -1,0 +1,19 @@
+{
+  "name": "Baby Lion #7",
+  "description": "A cute baby lion that can be upgraded to an adult after 12 hours. Part of the Animals NFT collection.",
+  "image": "https://coral-academic-chipmunk-90.mypinata.cloud/ipfs/QmSKzC8j19xF9y7N8zX4VEJf89s7Nkk2R7N3vB5E8FmT4P/baby_lion.png",
+  "attributes": [
+    {
+      "trait_type": "Species",
+      "value": "Lion"
+    },
+    {
+      "trait_type": "Stage",
+      "value": "Baby"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Common"
+    }
+  ]
+}
